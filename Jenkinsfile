@@ -2,6 +2,10 @@ pipeline {
 
        agent any
 
+       environment {
+            PYTHON_HOME = 'C:/Users/paora/AppData/Local/Programs/Python/Python311'
+       }
+
        stages {
 
          stage('Build') {
