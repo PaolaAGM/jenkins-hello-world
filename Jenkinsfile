@@ -1,27 +1,27 @@
 pipeline {
 
-agent any
+       agent any
 
-stages {
+       stages {
 
-stage('Build') {
+         stage('Build') {
 
-steps {
+            steps {
 
-script {
+               script {
 
-// Choisissez la commande en fonction de votre script
+               // Choisissez la commande en fonction de votre script
 
-sh 'python hello.py' // Pour Python
+               sh 'python hello.py' // Pour Python
 
-// sh 'javac HelloWorld.java && java HelloWorld' // Pour Java
+               // sh 'javac HelloWorld.java && java HelloWorld' // Pour Java
 
-}
+               }
 
-}
+            }
 
-}
+        }
 
-}
+    }
 
 }
