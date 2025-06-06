@@ -4,6 +4,7 @@ pipeline {
 
        environment {
             PYTHON_HOME = 'C:/Users/paora/AppData/Local/Programs/Python/Python311'
+            PATH = '${env.PATH};${PYTHON_HOME}'
        }
 
        stages {
